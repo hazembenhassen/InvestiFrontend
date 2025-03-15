@@ -1,0 +1,33 @@
+$border-color: #2A85FF;
+$focus-color: #2A85FF;
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  position: relative; 
+
+  .input {
+    padding-left: 50px; 
+    font-size: 16px;
+    border: 1pt solid $border-color;
+    border-radius: 8px;
+    transition: border 0.3s ease;
+    background-color: #ffffff;
+    color: #000000;
+    width: 533px; 
+    height: 58px;
+    &:focus {
+      border-color: $focus-color;
+      outline: none;
+    }
+  }
+
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 20px;  
+    transform: translateY(-50%);
+    pointer-events: none;  
+  }
+}

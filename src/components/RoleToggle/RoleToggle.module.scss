@@ -1,0 +1,40 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$border-radius: 8px;
+$transition-speed: 0.5s;
+
+.roleToggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $primary-color;
+  border-radius: $border-radius;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 15px;
+
+  .toggleButton {
+    width: 235px;
+    height: 58px;
+    background-color: #fff;
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background $transition-speed, color $transition-speed;
+    color: $primary-color;
+    border: none;
+    outline: none;
+
+    &:hover {
+      background: lighten($primary-color, 48%);
+    }
+
+    &.active {
+      background: $primary-color;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+// src/styles/global.scss
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 300 700;  // Use a range for variable fonts
+    font-style: normal;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+    font-family: 'Inter', sans-serif;
+  }
+  

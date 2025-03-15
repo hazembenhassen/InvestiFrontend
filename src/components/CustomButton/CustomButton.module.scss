@@ -1,0 +1,30 @@
+$primary-color: #007bff;
+$secondary-color: #878889;
+
+.button {
+  height: 58px;
+  width: 180px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  background-color: #ffffff;
+
+  &.primary {
+    color: $primary-color;
+
+    &:hover {
+      background:#e1eeff;
+    }
+  }
+
+  &.secondary {
+    color: $secondary-color;
+
+    &:hover {
+      background:#eeeeee;
+    }
+  }
+}
