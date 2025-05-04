@@ -1,0 +1,81 @@
+.kpi-chart {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 1rem;
+    width: 500px;
+    max-width: 800px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    font-family: 'Inter', sans-serif;
+  
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      margin-bottom: 1rem;
+    }
+  
+    .chart-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+  
+      .chart-title {
+        color: #374151;
+        font-size: 17px;
+        margin: 0;
+        
+      }
+  
+      .chart-percentage {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #111827;
+      }
+  
+      .chart-change {
+        display: flex;
+        align-items: center;
+        font-size: 0.875rem;
+        color: #22c55e;
+        gap: 0.25rem;
+  
+        .last-month {
+          color: #9ca3af;
+          margin-left: 0.5rem;
+        }
+      }
+    }
+  
+    .chart-options {
+      font-size: 1.25rem;
+      color: #9ca3af;
+      cursor: pointer;
+    }
+  
+    .recharts-tooltip-wrapper {
+      font-size: 0.75rem;
+    }
+  
+    .recharts-tooltip-label {
+      font-weight: 500;
+    }
+  
+    .recharts-cartesian-grid-horizontal line {
+      stroke: #e5e7eb;
+      stroke-dasharray: 3 3;
+    }
+  
+    .recharts-cartesian-grid-vertical line {
+      display: none;
+    }
+  
+    .recharts-x-axis .recharts-cartesian-axis-tick-value {
+      fill: #6b7280;
+      font-size: 0.75rem;
+    }
+  
+    .recharts-line {
+      stroke: #4f46e5;
+    }
+  }
+  

@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f5f6fa;
+  }
+  
+  .settingsCard {
+    flex: 2;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-right: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  

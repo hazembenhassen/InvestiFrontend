@@ -17,7 +17,7 @@ const AuthLayout: React.FC = () => {
 
             <div className={styles.rightSection}>
                 <img src={logo} alt="Logo" className={styles.logo} />
-                <h1 className="JoinHeader">Rejoindre</h1>
+                <h1 className="JoinHeader">Se Connecter</h1>
                 <SignupForm />
             </div>
         </div>

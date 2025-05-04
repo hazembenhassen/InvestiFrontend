@@ -1,0 +1,73 @@
+.profileCard {
+    flex: 1;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  .avatarSection {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2A85FF;
+  }
+  
+  .cameraIcon {
+    position: absolute;
+    bottom: 0;
+    right: calc(50% - 12px);
+    background: #2A85FF;
+    color: white;
+    border-radius: 50%;
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  
+  .stats {
+    text-align: left;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+  
+    div {
+      margin: 0.5rem 0;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    span {
+      font-weight: 600;
+      color: #2A85FF;
+    }
+  }
+  
+  .profileButton {
+    background-color: #2A85FF;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .profileLink {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    background-color: #f9f9f9;
+  }
+  

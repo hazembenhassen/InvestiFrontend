@@ -1,0 +1,66 @@
+.document-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    min-height: 150px;
+    max-width: 100%;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+  
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+  
+      .file-icon {
+        width: 40px;
+        height: 40px;
+        background: #e0f0ff;
+        border-radius: 8px;
+        mask: url("https://fonts.gstatic.com/s/i/materialiconsoutlined/description/v12/24px.svg") no-repeat center;
+        -webkit-mask: url("https://fonts.gstatic.com/s/i/materialiconsoutlined/description/v12/24px.svg") no-repeat center;
+        mask-size: cover;
+        -webkit-mask-size: cover;
+      }
+  
+      .text {
+        display: flex;
+        flex-direction: column;
+  
+        h4 {
+          margin: 0;
+          font-size: 1rem;
+          color: #333;
+        }
+  
+        .edit {
+          font-size: 0.85rem;
+          color: #3b82f6;
+          cursor: pointer;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+  
+      .date {
+        font-size: 0.8rem;
+        color: #777;
+      }
+  
+      .download-btn {
+        color: #3b82f6;
+      }
+    }
+  }
+  

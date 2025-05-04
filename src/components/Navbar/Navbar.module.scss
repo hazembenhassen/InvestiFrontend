@@ -1,0 +1,110 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.logoIcon {
+    width: 10rem;
+    margin-right: 117px;
+}
+
+.logoText {
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 24px;
+    color: #000;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 26px;
+    margin-left: 50px;
+
+    li {
+        
+        color: #6b7280;
+        font-weight: 500;
+        cursor: pointer;
+
+        &:hover {
+            color: #6faaf7;
+        }
+    }
+
+    .active {
+        color: #2A85FF;
+        font-weight: 600;
+    }
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.icon {
+    font-size: 30px;
+    color: #374151;
+    background-color: #f3f4f6;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #e5e7eb;
+    }
+}
+
+.createCampaign {
+    display: flex;
+    align-items: center;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    height: 40px;
+    &:hover {
+      background-color: #2A85FF;
+      color: white;
+    }
+    span {
+      margin-left: 8px;
+      font-size: 14px;
+    }
+  
+  }
+  
+ 
+  .ContributorNavBtn {
+    background-color: #ffffff;
+    color: #2A85FF;
+    border: #f3f4f6;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+  }
+  .ContributorNavBtn:hover {
+    border-radius: 10px;
+    background-color: #ddebfd;
+    color: #2A85FF;
+    border: #f3f4f6;
+    height: 50px;
+
+   
+  }

@@ -1,0 +1,87 @@
+.donor-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    width: 350px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  
+    .donor-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      h3 {
+        margin: 0;
+        font-size: 18px;
+      }
+  
+      .donor-card-tabs {
+        button {
+          background: none;
+          border: none;
+          font-size: 14px;
+          color: #888;
+          margin-left: 8px;
+          cursor: pointer;
+  
+          &.active {
+            font-weight: bold;
+            color: #000;
+          }
+        }
+      }
+    }
+  
+    .donor-list {
+      margin-top: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+  }
+  .donor-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .donor-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  
+      .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+  
+      .text {
+        .name {
+          font-weight: 500;
+          display: block;
+        }
+  
+        .times {
+          font-size: 13px;
+          color: #888;
+        }
+      }
+    }
+  
+    .donor-amount {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+  
+      span {
+        font-weight: bold;
+      }
+  
+      .menu-icon {
+        cursor: pointer;
+        color: #888;
+      }
+    }
+  }
+    

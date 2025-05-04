@@ -10,16 +10,16 @@ const RoleToggle: React.FC<RoleToggleProps> = ({ role, setRole }) => {
   return (
     <div className={styles.roleToggle}>
       <button
-        className={`${styles.toggleButton} ${role === "Entreprise" ? styles.active : ""}`}
-        onClick={() => setRole("Entreprise")}
+        className={`${styles.toggleButton} ${role === "BENEFICIARY" ? styles.active : ""}`}
+        onClick={() => setRole("BENEFICIARY")}
       >
-        Entreprise
+        BENEFICIARY
       </button>
       <button
-        className={`${styles.toggleButton} ${role === "Association" ? styles.active : ""}`}
-        onClick={() => setRole("Association")}
+        className={`${styles.toggleButton} ${role === "CONTRIBUTOR" ? styles.active : ""}`}
+        onClick={() => setRole("CONTRIBUTOR")}
       >
-        Association
+        CONTRIBUTOR
       </button>
     </div>
   );
